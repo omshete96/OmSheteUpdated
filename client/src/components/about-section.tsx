@@ -51,7 +51,7 @@ export default function AboutSection() {
             
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div className="text-center p-6 bg-dark-tertiary rounded-xl border border-glass-border card-glow">
-                <div className="text-3xl font-bold gradient-text mb-2">400+</div>
+                <div className="text-3xl font-bold gradient-text mb-2">450+</div>
                 <div className="text-gray-400">DSA Problems Solved</div>
               </div>
               <div className="text-center p-6 bg-dark-tertiary rounded-xl border border-glass-border card-glow">
