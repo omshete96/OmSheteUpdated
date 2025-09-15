@@ -19,6 +19,13 @@ import { Button } from "@/components/ui/button";
       githubUrl: "https://github.com/omshete96/Bloomberg-Terminal-Clone",
     },
     {
+      title: "UPI Fraud Detection Using ML",
+      description: "Comparative Analysis of UPI Fraud Detection by using various ML algorithms such as Logistic Regression, Random Forest, SVM, Decision Tree",
+      image: "components/Upi_Frade_Detection_image.png",
+      technologies: ["Python", "Pandas", "NumPy", "Logistic Regression", "Random Forest", "XGBoost", "Decision Trees"],
+      githubUrl: "https://github.com/omshete96/UPI-Fraud-Detection-Using-ML-With-Comparative-Analysis",
+    },
+    {
       title: "Netflix Movie Recommender System",
       description: "A terminal-based Netflix movie recommender system using machine learning (TF-IDF + cosine similarity) to suggest similar movies based on descriptions, genres, cast, and director. Built with Python and pandas.",
       image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
@@ -38,13 +45,6 @@ import { Button } from "@/components/ui/button";
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       technologies: ["Python", "Translation API", "NLP"],
       githubUrl: "https://github.com/omshete96/Real-Time-Language-Translator-Bot-Using-python",
-    },
-    {
-      title: "User Authentication System",
-      description: "Developed a secure user authentication system using Next.js and MySQL, implementing password hashing for secure storage. The system ensures data privacy and security with a clean, user-friendly interface.",
-      image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Next.js", "MySQL", "Authentication"],
-      githubUrl: "https://github.com/omshete96/User-Authentication-System",
     },
   ];
   
