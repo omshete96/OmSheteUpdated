@@ -4,82 +4,50 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 // ✅ Local import for your custom image
-import UpiFraudImage from "./Upi_Frade_Detection_image.png";
 
 const projects = [
   {
     title: "Web Based Encryption & Decryption Tool",
-    description:
-      "A secure web-based data encryption/decryption tool built with Next.js frontend and C++ backend. Provides fast, reliable data encryption with modern web interface for easy file and text processing.",
-    image:
-      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    description:"A secure web-based data encryption/decryption tool built with Next.js frontend and C++ backend. Provides fast, reliable data encryption with modern web interface for easy file and text processing.",
+    image:"https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Next.js", "C++", "Encryption"],
-    liveUrl:
-      "https://web-based-encryption-decryption-too.vercel.app/",
-    githubUrl:
-      "https://github.com/omshete96/Web-Based-Data-Encryption-Decryption-Tool",
+    liveUrl:"https://web-based-encryption-decryption-too.vercel.app/",
+    githubUrl:"https://github.com/omshete96/Web-Based-Data-Encryption-Decryption-Tool",
   },
   {
     title: "Bloomberg Terminal Clone",
-    description:
-      "A real-time financial data terminal that replicates the classic Bloomberg Terminal experience with modern web technologies. Features live stock quotes, market indices, currency rates, and financial news with an authentic terminal-style interface.",
-    image:
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    technologies: [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "Socket.IO",
-      "Financial APIs",
-    ],
-    githubUrl:
-      "https://github.com/omshete96/Bloomberg-Terminal-Clone",
+    description:"A real-time financial data terminal that replicates the classic Bloomberg Terminal experience with modern web technologies. Features live stock quotes, market indices, currency rates, and financial news with an authentic terminal-style interface.",
+    image:"https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["React","TypeScript","Node.js","Socket.IO","Financial APIs",],
+    githubUrl:"https://github.com/omshete96/Bloomberg-Terminal-Clone",
   },
   {
     title: "UPI Fraud Detection Using ML",
-    description:
-      "Comparative Analysis of UPI Fraud Detection by using various ML algorithms such as Logistic Regression, Random Forest, SVM, Decision Tree",
-    image: UpiFraudImage, // ✅ local image import
-    technologies: [
-      "Python",
-      "Pandas",
-      "NumPy",
-      "Logistic Regression",
-      "Random Forest",
-      "XGBoost",
-      "Decision Trees",
-    ],
-    githubUrl:
-      "https://github.com/omshete96/UPI-Fraud-Detection-Using-ML-With-Comparative-Analysis",
+    description:"Comparative Analysis of UPI Fraud Detection by using various ML algorithms such as Logistic Regression, Random Forest, SVM, Decision Tree",
+    image:"https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["Python","Pandas","NumPy","Logistic Regression","Random Forest","XGBoost","Decision Trees",],
+    githubUrl:"https://github.com/omshete96/UPI-Fraud-Detection-Using-ML-With-Comparative-Analysis",
   },
   {
     title: "Netflix Movie Recommender System",
-    description:
-      "A terminal-based Netflix movie recommender system using machine learning (TF-IDF + cosine similarity) to suggest similar movies based on descriptions, genres, cast, and director. Built with Python and pandas.",
-    image:
-      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    description:"A terminal-based Netflix movie recommender system using machine learning (TF-IDF + cosine similarity) to suggest similar movies based on descriptions, genres, cast, and director. Built with Python and pandas.",
+    image:"https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Python", "Machine Learning", "Pandas"],
-    githubUrl:
-      "https://github.com/omshete96/Netflix-Movie-Recommender-System",
+    githubUrl:"https://github.com/omshete96/Netflix-Movie-Recommender-System",
   },
   {
     title: "News Aggregator",
-    description:
-      "Developed a news aggregator with Next.js that uses News API to fetch and display real-time headlines. Demonstrated skills in API integration and modern web development practices.",
-    image:
-      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    description:"Developed a news aggregator with Next.js that uses News API to fetch and display real-time headlines. Demonstrated skills in API integration and modern web development practices.",
+    image:"https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Next.js", "News API", "JavaScript"],
     githubUrl: "https://github.com/omshete96/News-Aggregator",
   },
   {
     title: "Automatic Language Translator Bot",
-    description:
-      "The language translator bot can translate source language into destination language with the help of python and its packages. Efficient translation system with multiple language support.",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    description:"The language translator bot can translate source language into destination language with the help of python and its packages. Efficient translation system with multiple language support.",
+    image:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Python", "Translation API", "NLP"],
-    githubUrl:
-      "https://github.com/omshete96/Real-Time-Language-Translator-Bot-Using-python",
+    githubUrl:"https://github.com/omshete96/Real-Time-Language-Translator-Bot-Using-python",
   },
 ];
 
@@ -90,24 +58,22 @@ const techColors = {
   MySQL: "bg-orange-900/40 text-orange-300 border-orange-700/50",
   Authentication: "bg-green-900/40 text-green-300 border-green-700/50",
   Python: "bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
-  "Machine Learning":
-    "bg-indigo-900/40 text-indigo-300 border-indigo-700/50",
+  "Machine Learning":"bg-indigo-900/40 text-indigo-300 border-indigo-700/50",
   Pandas: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
+  "NumPy:bg-red-900/40 text-red-300 border-red-700/50",
+  "Logistic Regression:bg-green-900/40 text-green-300 border-green-700/50",
+  "Random Forest:bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
+  "XGBoost:bg-amber-900/40 text-amber-300 border-amber-700/50",
+  "Decision Trees:bg-green-900/40 text-green-300 border-green-700/50"
   "News API": "bg-pink-900/40 text-pink-300 border-pink-700/50",
-  JavaScript:
-    "bg-amber-900/40 text-amber-300 border-amber-700/50",
-  "Translation API":
-    "bg-teal-900/40 text-teal-300 border-teal-700/50",
+  JavaScript:"bg-amber-900/40 text-amber-300 border-amber-700/50",
+  "Translation API":"bg-teal-900/40 text-teal-300 border-teal-700/50",
   NLP: "bg-violet-900/40 text-violet-300 border-violet-700/50",
   React: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
-  TypeScript:
-    "bg-blue-900/40 text-blue-300 border-blue-700/50",
-  "Node.js":
-    "bg-green-900/40 text-green-300 border-green-700/50",
-  "Socket.IO":
-    "bg-purple-900/40 text-purple-300 border-purple-700/50",
-  "Financial APIs":
-    "bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
+  TypeScript:"bg-blue-900/40 text-blue-300 border-blue-700/50",
+  "Node.js":"bg-green-900/40 text-green-300 border-green-700/50",
+  "Socket.IO":"bg-purple-900/40 text-purple-300 border-purple-700/50",
+  "Financial APIs":"bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
 };
 
 export default function PortfolioSection() {
