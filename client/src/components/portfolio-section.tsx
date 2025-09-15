@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
-  import { ExternalLink, GithubIcon } from "lucide-react";
-  import { motion } from "framer-motion";
+import { ExternalLink, GithubIcon } from "lucide-react";
+import { motion } from "framer-motion";
+// Import your local image (same folder as this file)
+import UpiFraudImage from "./Upi_Frade_Detection_image.png";
   
   const projects = [
     {
@@ -21,7 +23,7 @@ import { Button } from "@/components/ui/button";
     {
       title: "UPI Fraud Detection Using ML",
       description: "Comparative Analysis of UPI Fraud Detection by using various ML algorithms such as Logistic Regression, Random Forest, SVM, Decision Tree",
-      image: "components/Upi_Frade_Detection_image.png",
+      image: UpiFraudImage, // ✅ imported image
       technologies: ["Python", "Pandas", "NumPy", "Logistic Regression", "Random Forest", "XGBoost", "Decision Trees"],
       githubUrl: "https://github.com/omshete96/UPI-Fraud-Detection-Using-ML-With-Comparative-Analysis",
     },
