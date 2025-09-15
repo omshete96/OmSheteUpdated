@@ -50,29 +50,29 @@ import { Button } from "@/components/ui/button";
   
   const techColors = {
     "Next.js": "bg-blue-900/40 text-blue-300 border-blue-700/50",
-  "C++": "bg-red-900/40 text-red-300 border-red-700/50",
-  Encryption: "bg-purple-900/40 text-purple-300 border-purple-700/50",
-  MySQL: "bg-orange-900/40 text-orange-300 border-orange-700/50",
-  Authentication: "bg-green-900/40 text-green-300 border-green-700/50",
-  Python: "bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
-  "Machine Learning":"bg-indigo-900/40 text-indigo-300 border-indigo-700/50",
-  Pandas: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
-  "NumPy:bg-red-900/40 text-red-300 border-red-700/50",
-  "Logistic Regression:bg-green-900/40 text-green-300 border-green-700/50",
-  "Random Forest:bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
-  "XGBoost:bg-amber-900/40 text-amber-300 border-amber-700/50",
-  "Decision Trees:bg-green-900/40 text-green-300 border-green-700/50"
-  "News API": "bg-pink-900/40 text-pink-300 border-pink-700/50",
-  JavaScript:"bg-amber-900/40 text-amber-300 border-amber-700/50",
-  "Translation API":"bg-teal-900/40 text-teal-300 border-teal-700/50",
-  NLP: "bg-violet-900/40 text-violet-300 border-violet-700/50",
-  React: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
-  TypeScript:"bg-blue-900/40 text-blue-300 border-blue-700/50",
-  "Node.js":"bg-green-900/40 text-green-300 border-green-700/50",
-  "Socket.IO":"bg-purple-900/40 text-purple-300 border-purple-700/50",
-  "Financial APIs":"bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
-  };
-  
+    "C++": "bg-red-900/40 text-red-300 border-red-700/50",
+    Encryption: "bg-purple-900/40 text-purple-300 border-purple-700/50",
+    MySQL: "bg-orange-900/40 text-orange-300 border-orange-700/50",
+    Authentication: "bg-green-900/40 text-green-300 border-green-700/50",
+    Python: "bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
+    "Machine Learning": "bg-indigo-900/40 text-indigo-300 border-indigo-700/50",
+    Pandas: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
+    NumPy: "bg-red-900/40 text-red-300 border-red-700/50",
+    "Logistic Regression": "bg-green-900/40 text-green-300 border-green-700/50",
+    "Random Forest": "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
+    XGBoost: "bg-amber-900/40 text-amber-300 border-amber-700/50",
+    "Decision Trees": "bg-green-900/40 text-green-300 border-green-700/50",
+    "News API": "bg-pink-900/40 text-pink-300 border-pink-700/50",
+    JavaScript: "bg-amber-900/40 text-amber-300 border-amber-700/50",
+    "Translation API": "bg-teal-900/40 text-teal-300 border-teal-700/50",
+    NLP: "bg-violet-900/40 text-violet-300 border-violet-700/50",
+    React: "bg-cyan-900/40 text-cyan-300 border-cyan-700/50",
+    TypeScript: "bg-blue-900/40 text-blue-300 border-blue-700/50",
+    "Node.js": "bg-green-900/40 text-green-300 border-green-700/50",
+    "Socket.IO": "bg-purple-900/40 text-purple-300 border-purple-700/50",
+    "Financial APIs": "bg-yellow-900/40 text-yellow-300 border-yellow-700/50",
+};
+
   export default function PortfolioSection() {
     return (
       <section id="portfolio" className="py-20 bg-dark-secondary">
