@@ -47,7 +47,7 @@ const skillCategories = [
 const technologies = [
   "C++","Python","Java","JavaScript","Next.js", "React.js", "Node.js","Express.js",    
    "MySQL", "MongoDB", "PostgreSQL", "Oracle", "Git & GitHub",
-  "Artificial Intelligence", "Machine Learning", "Data Science", "Docker"
+  "Artificial Intelligence", "Machine Learning", "Data Science", "Docker", "AWS"
 ];
 
 export default function SkillsSection() {
