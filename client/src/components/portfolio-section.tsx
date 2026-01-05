@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Legal Document Analyzer (AI-Powered RAG System)",
-    description: "Built a RAG-based full-stack application for legal contract analysis, document review, and question answering. Designed a semantic search workflow using ChromaDB and SentenceTransformers to extract and analyze key clauses. Integrated Groq API (Llama 3) for real-time summarization, risk identification, and interactive document chat.",
+    description: "Built a RAG-based full-stack application for legal contract analysis, document review, and question answering. Designed a semantic search workflow using ChromaDB and SentenceTransformers to extract and analyze key clauses.",
     image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Python", "AI", "FastAPI", "Next.js", "RAG", "ChromaDB", "Groq API"],
     githubUrl: "https://github.com/omshete96/Legal-Document-Analyzer",
