@@ -40,7 +40,7 @@ export default function AboutSection() {
           >
             <p className="text-lg text-gray-300 leading-relaxed">
               I'm a passionate Computer Engineering student at Nutan Maharashtra Institute of Engineering and Technology, Pune, 
-              with an aggregate CGPA of 8.53 (Till Semester VI). My journey is driven by a strong enthusiasm for 
+              with an aggregate CGPA of 8.65 (Till Semester VII). My journey is driven by a strong enthusiasm for 
               Full Stack Development, AI/ML, and Data Science technologies.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
