@@ -55,8 +55,8 @@ export default function AboutSection() {
                 <div className="text-gray-400">DSA Problems Solved</div>
               </div>
               <div className="text-center p-6 bg-dark-tertiary rounded-xl border border-glass-border card-glow">
-                <div className="text-3xl font-bold gradient-text mb-2">8.53</div>
-                <div className="text-gray-400">CGPA Till Sem VI</div>
+                <div className="text-3xl font-bold gradient-text mb-2">8.65</div>
+                <div className="text-gray-400">CGPA Till Sem VII</div>
               </div>
             </div>
           </motion.div>
