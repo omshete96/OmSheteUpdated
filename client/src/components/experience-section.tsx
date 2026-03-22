@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "AI Intern",
-    company: "Edunet Foundation",
-    period: "Jan - Feb 2025",
-    description: "Explored AI/ML concepts and applications, contributing to educational technology initiatives and AI research projects.",
-    color: "bg-gradient-to-r from-primary to-purple-500",
+    title: "Software Developer Intern",
+    company: "Celebal Technologies",
+    period: "May 2025 - July 2025",
+    description: "Learned and implement about how Node.js is used in backend and helpful for various backend operations",
+    color: "bg-gradient-to-r from-secondary to-primary",
   },
   {
-    title: "Node.js Intern",
-    company: "Celebal Technologies",
-    period: "May - July 2025",
-    description: "Learned and implement about how Node.js is used in backend and helpful for various backend operations",
+    title: "AI Developer Intern",
+    company: "Cogniq AI",
+    period: "Jan 2026 - Present",
+    description: " Worked End-to-End production level Saas Projects. Learned new things that are used in real world applications.",
     color: "bg-gradient-to-r from-secondary to-primary",
   },
 ];
